@@ -53,11 +53,11 @@ public class DetailActivity extends AppCompatActivity {
                 String hate = map.get("hate");
                 String love = map.get("love");
 
-                Log.v("E_Value", "Head " +head);
+                /*Log.v("E_Value", "Head " +head);
                 Log.v("E_Value", "desc " +desc);
                 Log.v("E_Value", "like " +like);
                 Log.v("E_Value", "hate " +hate);
-                Log.v("E_Value", "love " +love);
+                Log.v("E_Value", "love " +love);*/
 
                 textViewHead.setText(head);
                 textViewDesc.setText(desc);

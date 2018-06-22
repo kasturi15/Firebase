@@ -19,14 +19,15 @@
             </intent-filter-->
         </activity>
         <activity android:name=".LoginActivity" />
-        <activity android:name=".UserActivity">
-        <intent-filter>
-            <action android:name="android.intent.action.MAIN" />
+        <activity android:name=".UserActivity"/>
 
-            <category android:name="android.intent.category.LAUNCHER" />
-        </intent-filter>
+        <activity android:name=".DetailActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
         </activity>
-        <activity android:name=".DetailActivity"/>
     </application>
 
 </manifest>
